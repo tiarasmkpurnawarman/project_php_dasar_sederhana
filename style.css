@@ -1,0 +1,73 @@
+/* Latar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff6ff;
+    padding: 20px;
+}
+
+/* Kotak putih di tengah */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+/* Kotak yang sempit */
+.sempit {
+    max-width: 550px;
+}
+
+/* Judul */
+h2 {
+    color: #1d4ed8;
+    border-bottom: 3px solid #f97316;
+    padding-bottom: 8px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Tombol */
+.tombol {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #f97316;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background-color: #ea580c;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
